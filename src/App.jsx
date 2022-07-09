@@ -5,6 +5,7 @@ import About from './components/About';
 import Trustee from './components/Trustee';
 import Message from './components/Message';
 import Object from './components/Object'; 
+import Work from './components/Work'
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
         <Trustee />
         <Message />
         <Object />
-       
+       <Work/>
       </div>
     </>
   )
