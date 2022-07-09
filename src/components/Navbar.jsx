@@ -22,9 +22,9 @@ const Navbar = () => {
 
                 <ul className="hidden md:flex">
                     <Link to="body" smooth={true} duration={1000} className="hover:cursor-pointer"> <li className="text-[#fa602d]">Home</li></Link>
-                    <Link to=" " smooth={true} duration={1000} className="hover:cursor-pointer">  <li className="text-[#fa602d]">About Us</li></Link>
-                    <Link to=" " smooth={true} duration={1000} className="hover:cursor-pointer" > <li className="text-[#fa602d]">Message</li></Link>
-                    <Link to=" " smooth={true} duration={1000} className="hover:cursor-pointer">  <li className="text-[#fa602d]">Object</li></Link>
+                    <Link to="about" smooth={true} duration={1000} className="hover:cursor-pointer">  <li className="text-[#fa602d]">About Us</li></Link>
+                    <Link to="message" smooth={true} duration={1000} className="hover:cursor-pointer" > <li className="text-[#fa602d]">Message</li></Link>
+                    <Link to="object" smooth={true} duration={1000} className="hover:cursor-pointer">  <li className="text-[#fa602d]">Object</li></Link>
 
                 </ul>
                 {/* mobile dropdown */}
@@ -37,9 +37,9 @@ const Navbar = () => {
                     <ul>
                         <img className="items-center justify-between content-center" width="80px" src={logo} />
                         <li className="border-b border-black">Home</li>
-                        <Link to=" " smooth={true} duration={1000} className="hover:cursor-pointer">  <li className="border-b border-black">About Us </li></Link>
-                        <Link to=" " smooth={true} duration={1000} className="hover:cursor-pointer">  <li className="border-b border-black">Message</li></Link>
-                        <Link to=" " smooth={true} duration={1000} className="hover:cursor-pointer"> <li className="border-b border-black">Object</li></Link>
+                        <Link to="about" smooth={true} duration={1000} className="hover:cursor-pointer">  <li className="border-b border-black">About Us </li></Link>
+                        <Link to="message" smooth={true} duration={1000} className="hover:cursor-pointer">  <li className="border-b border-black">Message</li></Link>
+                        <Link to="object" smooth={true} duration={1000} className="hover:cursor-pointer"> <li className="border-b border-black">Object</li></Link>
 
 
                         <div className="flex flex-col">

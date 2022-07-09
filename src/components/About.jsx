@@ -5,7 +5,7 @@ import Corsesal from "./Corsesal"
 const About = () => {
     return (
         <>
-            <div className=" max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-20" id="about">
+            <div className=" max-w-[1240px] mx-auto lg:grid grid-cols-3 gap-4 px-4 py-20" id="about">
                 <div className="lg:col-span-2 flex flex-col justify-evenly ">
                     <div >
                         <h2 className="tex text-3xl font-semibold text-orange-500">About Us</h2>
