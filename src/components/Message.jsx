@@ -4,8 +4,8 @@ import logo from "../assets/trust.png"
 const Message = () => {
     return (
         <>
-            <div className="max-w-[1240px] text-center  mx-auto py-16" id="message">
-                <h1 className="obj text-4xl text-orange-500 py-20 font-semibold">Message From President</h1>
+            <div className="max-w-[1240px]   mx-auto py-16" id="message">
+                <h1 className="obj text-4xl text-center text-orange-500 py-20 font-semibold">Message From President</h1>
                 <div className="lg:grid grid-cols-3 gap-4 px-4">
                     <div className="lg:col-span-2 flex flex-col justify-evenly ">
 
