@@ -26,3 +26,29 @@
   
 }
 
+.data{
+  border: 1px solid white;
+  background-color: rgb(255, 102, 0);
+  transition:0.8s;
+  position:relative;
+  overflow:hidden;
+}
+
+.data::before{
+  content: " ";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,55,32,1) 0%, rgba(239,144,0,1) 100%, rgba(0,212,255,1) 100%);
+  z-index: -1;
+  transition: 0.8s;
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.data:hover::before{
+
+  height: 180%;
+
+}
