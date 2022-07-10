@@ -11,7 +11,7 @@ const Body = () => {
                     />
 
                 </div>
-                <div className="w-full h-full absolute top-0 bg-black/90"></div>
+                <div className="w-full h-full absolute top-0 bg-black/70"></div>
                 <div className="absolute top-0 h-full w-full flex flex-col justify-center text-center text-white p-4 text-4xl">
                     <h1 className="textc font-light  text-orange-500">Swami Vivekananda Social Development And Charitable Trust </h1>
                     <h2 className="textc py-4  text-orange-500">Kurukshetra</h2>
